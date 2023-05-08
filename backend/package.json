@@ -1,0 +1,27 @@
+{
+  "name": "stock-api",
+  "version": "1.0.0",
+  "description": "A simple RESTful API built with Express.js and SQLite",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+    
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "restful",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.22",
+    "sqlite3": "^5.0.2"
+  }
+}
